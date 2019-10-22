@@ -49,17 +49,17 @@
             type="primary"
             size="small"
             @click="orderDetail(
-                                 row.title,
-                                 row.approver,
-                                 row.business,
-                                 row.host,
-                                 row.state,
-                                 row.content,
-                                 row.creator,
-                                 row.time,
-                                 row.ctime,
-                                 index,
-                                 )"
+                                row.title,
+                                row.approver,
+                                row.business,
+                                row.host,
+                                row.state,
+                                row.content,
+                                row.creator,
+                                row.time,
+                                row.ctime,
+                                index,
+                                )"
           >详情</Button>
         </router-link>
         <Button style="margin-left: 10px" type="error" size="small" @click="remove(index)">删除</Button>
